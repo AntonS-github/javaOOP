@@ -37,6 +37,7 @@ public class Les6 {
         setOfBooks.add(laptop2);
         setOfBooks.add(laptop3);
 
+
         var result = Notebook.getNotebooks(setOfBooks);
         logger.info(String.valueOf(result));
 

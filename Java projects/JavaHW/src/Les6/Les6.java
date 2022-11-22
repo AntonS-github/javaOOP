@@ -29,7 +29,6 @@ public class Les6 {
         laptop3.setOperatingSystem ("Windows");
         laptop3.setColor ("Black");
 
-
         logger.info(Notebook.infoMessage ());
         //Notebook.filterBy(2, 9000);
         Notebook.filterBy(3, 600);

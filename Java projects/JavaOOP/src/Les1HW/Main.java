@@ -2,7 +2,6 @@ package Les1HW;
 
 import java.util.function.Supplier;
 import java.util.logging.Logger;
-
 public class Main {
     public static void main(String[] args) {
         HotDrinkInherited drink1 = new HotDrinkInherited ("Americano", 0.3, 150.00, 90);

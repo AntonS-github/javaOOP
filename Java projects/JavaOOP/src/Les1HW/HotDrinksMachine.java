@@ -11,7 +11,6 @@ public class HotDrinksMachine implements VendingMachine {
             this.products.add(inheritedProduct);
         }
     }
-
     @Override
     public HotDrinkInherited getProduct(String name, Double volume, int temperature) {
         for (int i = 0; i < products.size(); i++) {

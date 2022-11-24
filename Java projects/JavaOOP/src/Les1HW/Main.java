@@ -17,6 +17,7 @@ public class Main {
         HotDrinksMachine machine2 = new HotDrinksMachine (set2);
         HotDrinksMachine machine3 = new HotDrinksMachine (set3);
 
+
         Logger logger = Logger.getAnonymousLogger ();
         logger.info (String.valueOf (machine1.getProduct ("Latte", 0.3, 50)));
         logger.info (String.valueOf (machine3.getProduct ("Cappucino", 0.3, 50)));

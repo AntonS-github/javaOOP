@@ -9,7 +9,6 @@ public class HotDrinkInherited extends HotDrink {
         super.price = price;
         this.temperature = temp;
     }
-
     @Override
     public String toString() {
         return String.format ("Your drink is: %s, Temerature is: %s, Size is: %s, Price is: %s",

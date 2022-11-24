@@ -3,6 +3,7 @@ package Les1HW;
 import java.util.ArrayList;
 
 public class HotDrinksMachine implements VendingMachine {
+
     public ArrayList<HotDrinkInherited> products = new ArrayList<> ();
 
     public HotDrinksMachine (HotDrinkInherited[] products) {

@@ -2,6 +2,7 @@ package Les1HW;
 
 public class HotDrinkInherited extends HotDrink {
     public int temperature;
+
     public HotDrinkInherited(String drinkName, Double volume, Double price, int temp) {
         super.drinkName = drinkName;
         super.volume = volume;

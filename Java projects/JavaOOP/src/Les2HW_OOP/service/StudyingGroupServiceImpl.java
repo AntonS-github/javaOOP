@@ -3,6 +3,7 @@ package Les2HW_OOP.service;
 import Les2HW_OOP.data.Student;
 import Les2HW_OOP.data.Teacher;
 import Les2HW_OOP.utils.ReaderFromTxt;
+import Les3HW_OOP.service.DataService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
 public class StudyingGroupServiceImpl implements DataService {
 
     @Override
-    public StudyingGroup readAndCreateGroup(String file) {
+    public void readAndCreateGroup(String file) {
         ReaderFromTxt readerFromTxt = new ReaderFromTxt ();
         String[] group = readerFromTxt.getGroup(file).split("\n");
 
@@ -26,6 +27,6 @@ public class StudyingGroupServiceImpl implements DataService {
             }
         }
         studyGroup.setStudentList(studentList);
-        return studyGroup;
+
     }
 }

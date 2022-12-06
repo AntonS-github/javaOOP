@@ -1,4 +1,5 @@
 package Les4HW_OOP.model.data;
+
 public class Employee extends User {
     private String jobTitle;
     public Employee(String firstName, String lastName, String jobTitle) {

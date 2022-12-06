@@ -1,4 +1,5 @@
 package Les4HW_OOP.view;
+
 public interface View {
     public String get();
 

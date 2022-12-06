@@ -3,6 +3,7 @@ package Les4HW_OOP.view;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+
 public class ConsoleViewImpl implements View {
     private Scanner sc = new Scanner(System.in);
     private Logger logger = Logger.getAnonymousLogger();

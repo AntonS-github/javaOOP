@@ -5,7 +5,6 @@ public class Employee extends User {
         super(firstName, lastName);
         this.jobTitle = jobTitle;
     }
-
     public String getJobTitle() {
         return jobTitle;
     }

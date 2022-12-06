@@ -1,5 +1,4 @@
 package Les4HW_OOP.model.data;
-
 public class Task <T extends User> {
     private static int numberOfID;
     private int taskID;

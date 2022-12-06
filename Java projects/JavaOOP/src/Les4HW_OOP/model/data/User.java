@@ -1,5 +1,4 @@
 package Les4HW_OOP.model.data;
-
 public abstract class User {
     private String firstName;
     private String lastName;

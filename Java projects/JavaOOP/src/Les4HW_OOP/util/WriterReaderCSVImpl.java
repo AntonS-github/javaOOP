@@ -5,7 +5,6 @@ import Les4HW_OOP.model.data.Task;
 import Les4HW_OOP.model.data.User;
 import java.io.*;
 import java.util.List;
-
 public class WriterReaderCSVImpl implements WriterReader {
 
     @Override

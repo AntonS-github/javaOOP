@@ -1,6 +1,7 @@
 import re
 from PyCalc import calc_operations as co
 
+
 def calculator(expression):
     global res
     numbers = re.split(r"[+|\-|*|/]", expression)
@@ -16,4 +17,3 @@ def calculator(expression):
     elif oper[0] == '/':
         res = co.div(x, y)
     return res
-

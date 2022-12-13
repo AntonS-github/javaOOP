@@ -16,6 +16,7 @@
 // System.out.printf("Факториал числа " + value + " = " + fact(value) + "\n");
 // }
 
+
 // public static int showTotalAmount(int value) {
 // int result_sum = 0;
 // for (int i = 1; i <= value; i++) {
